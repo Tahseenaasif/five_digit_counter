@@ -1,0 +1,95 @@
+.boy{
+    background-color: black;
+    padding: 16px;
+}
+
+.box-num-inpt{
+    width: 97vw;
+    height: 90vh;
+    background-color: #d8f8ff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.inpt-p-cont{
+    background: linear-gradient(90deg,rgb(174,232,238), rgb(233,174,218));
+    width:80%;
+    height: 30%;
+    margin-bottom: 100px;
+    color: white;
+    font-size:30px;
+    font-weight:bolder
+    margin-top:50px;
+    
+}
+
+.inpt-p-cont p{
+    word-spacing:20px;
+}
+
+#number{
+    width: 25%;
+    height: 30px;
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 1px 1px lightgrey;
+}
+
+#start-btn{
+
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 0px 0px 10px 3px white;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.counter-container{
+   background-color: #555555;
+        height: 200px;
+        width: 80%;
+        display: flex;
+      justify-content: center;
+}
+
+
+.counter{
+    display: inline-block;
+    background-color: aliceblue;
+    width: 50%;
+    max-width: 80px;
+    height: 80px;
+    margin: auto 10px;
+    box-shadow: 0px 0px 5px white;
+    position: relative;
+     overflow: hidden;  
+    
+
+}
+
+.counter p {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    line-height: 80px;
+    border-top: 2px solid black;
+    background-color: aliceblue;
+  }
+
+  p.next{
+     position: absolute;
+     top: 80px;
+    
+     
+  }
+
+
+  p.animated{
+    transition: 1s all;
+    top:0px
+  }
